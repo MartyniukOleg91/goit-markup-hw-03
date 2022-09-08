@@ -1,0 +1,235 @@
+:root{
+  --accent-color: #2196f3;
+  --color-light: #ffffff;
+  --text-color: #757575;
+}
+
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto";
+  color: #212121;
+  background-color: var(--color-light);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+/* logo header WebStudio*/
+.logo_header {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--accent-color)
+}
+.logo_header > .link {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+/* logo footer WebStudio */
+.logo_footer {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--accent-color);
+}
+.logo_footer .logo_black_part {
+  color: var(--color-light); 
+}
+
+/* скасування колонтитулів */
+ul {
+  list-style-type: none;
+}
+
+/* формат шрифту навігаційних посилань */
+.nav_link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+.nav_link:focus {
+  color: var(--accent-color);
+}
+.nav_link:hover {
+  color: var(--accent-color);
+}
+/* формат шрифту посилання телефон */
+.contact_link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+  text-decoration: none;
+}
+.contact_link:focus {
+  color: var(--accent-color);
+}
+.contact_link:hover {
+  color: var(--accent-color);
+}
+
+.link:focus {
+  color: var(--accent-color);
+}
+
+/* центральний напис */
+.hiro_titel {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-light);
+}
+/* центральний текст */
+.center_text {
+  background-color: #2f303a;
+}
+/* Кнопка */
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--color-light);
+  cursor: pointer;
+  background-color: var(--accent-color);
+}
+
+/* Кнопки портфоліо */
+.button_portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
+}
+.button_portfolio:hover {
+  color: var(--color-light);
+  background-color: var(--accent-color) ;
+}
+.button_portfolio:focus {
+  color: var(--accent-color);
+}
+
+.section_title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.benefits_title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.benefits_detal {
+  line-height: 1.71;
+  color: var(--text-color);
+}
+
+/* Імена учасників команди */
+.team_name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/* посади учасникв */
+.team_position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--text-color);
+}
+
+/*  стилізація назв проектів*/
+.project {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121; 
+}
+
+/* стилізація категорій  */
+.category {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--text-color);
+}
+/* активна поточна сторінка */
+.current {
+ color: var(--accent-color);
+  text-decoration: none;
+}
+.сurrent:hover {
+  color: var(--accent-color);
+}
+.сurrent:focus {
+  color: var(--accent-color);
+}
+
+/* футер */
+footer {
+  background: #2f303a;
+}
+.footer_link {
+  line-height: 24px;
+  color: var(--color-light);
+  text-decoration: none;
+}
+.footer_link:hover {
+  color: var(--accent-color);
+}
+.footer_link:focus {
+  color: var(--accent-color);
+}
+
+address{font-style: normal;}
+.footer_link_mail,
+.footer_link_tel {
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.footer_link_mail:hover,
+.footer_link_tel:hover {
+  color: var(--accent-color);
+}
+.footer_link_mail:focus,
+.footer_link_tel:focus {
+  color: var(--accent-color);
+}
+/* скритий напис */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
