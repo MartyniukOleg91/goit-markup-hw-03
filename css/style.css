@@ -1,4 +1,6 @@
-html{box-sizing: border-box;}
+html {
+  box-sizing: border-box;
+}
 
 :root {
   --accent-color: #2196f3;
@@ -6,9 +8,17 @@ html{box-sizing: border-box;}
   --text-color: #757575;
 }
 /* скидання стилів */
-h1, h2, h3, h4, h5, h6, p, ul{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
   padding: 0;
-  margin: 0;}
+  margin: 0;
+}
 
 a {
   text-decoration: none;
@@ -19,6 +29,14 @@ body {
   background-color: var(--color-light);
   font-size: 14px;
   letter-spacing: 0.03em;
+}
+
+/* контейнер */
+.container {
+  width: 2000px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 /* logo header WebStudio*/
@@ -105,20 +123,39 @@ ul {
 }
 /* центральний текст */
 .center_text {
+  padding: 200px 452px 280px 452px;
+  width: 1600px;
+  height: 600px;
   background-color: #2f303a;
+    text-align: center;
 }
-/* Кнопка */
+/* Центральна кнопка */
 .button {
+  display: inline-block;
+  min-width: 216px;
+  height: 50px;
+  border-radius: 6px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  text-align: center;
+
   letter-spacing: 0.06em;
   color: var(--color-light);
   cursor: pointer;
   background-color: var(--accent-color);
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
+.button:hover,
+.button:focus {
+  color: var(--accent-color);
+  background-color: var(--color-light);
+  border-color: var(--accent-color);
 }
 
+.text_button {
+  margin: 10px 32px;
+}
 /* Кнопки портфоліо */
 .button_portfolio {
   font-weight: 500;
@@ -140,7 +177,8 @@ ul {
   line-height: 1.17;
   text-align: center;
 }
-
+/* переваги */
+.benefits{ padding-top: 94px;}
 .benefits_title {
   font-size: 14px;
   line-height: 1.14;
@@ -152,7 +190,13 @@ ul {
   color: var(--text-color);
 }
 
+/* Чим займаємось */
+.container_works{padding-top: 94px; }
+
 /* Імена учасників команди */
+
+.ouer_team{padding-top: 94px;}
+
 .team_name {
   font-weight: 500;
   font-size: 16px;
