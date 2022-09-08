@@ -1,8 +1,14 @@
-:root{
+html{box-sizing: border-box;}
+
+:root {
   --accent-color: #2196f3;
   --color-light: #ffffff;
   --text-color: #757575;
 }
+/* скидання стилів */
+h1, h2, h3, h4, h5, h6, p, ul{
+  padding: 0;
+  margin: 0;}
 
 a {
   text-decoration: none;
@@ -23,7 +29,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  color: var(--accent-color)
+  color: var(--accent-color);
 }
 .logo_header > .link {
   color: #000000;
@@ -46,7 +52,7 @@ body {
   color: var(--accent-color);
 }
 .logo_footer .logo_black_part {
-  color: var(--color-light); 
+  color: var(--color-light);
 }
 
 /* скасування колонтитулів */
@@ -123,7 +129,7 @@ ul {
 }
 .button_portfolio:hover {
   color: var(--color-light);
-  background-color: var(--accent-color) ;
+  background-color: var(--accent-color);
 }
 .button_portfolio:focus {
   color: var(--accent-color);
@@ -167,7 +173,7 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121; 
+  color: #212121;
 }
 
 /* стилізація категорій  */
@@ -178,7 +184,7 @@ ul {
 }
 /* активна поточна сторінка */
 .current {
- color: var(--accent-color);
+  color: var(--accent-color);
   text-decoration: none;
 }
 .сurrent:hover {
@@ -204,7 +210,9 @@ footer {
   color: var(--accent-color);
 }
 
-address{font-style: normal;}
+address {
+  font-style: normal;
+}
 .footer_link_mail,
 .footer_link_tel {
   line-height: 1.7;
