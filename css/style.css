@@ -33,7 +33,6 @@ body {
 
 /* контейнер */
 .container {
-  display: flex;
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
@@ -93,8 +92,10 @@ ul {
 
 /* формат шрифту навігаційних посилань */
 .main_nav {
+
   display: flex;
   align-items: center;
+
 }
 
 .nav {
@@ -119,6 +120,7 @@ ul {
   margin-left: 50px;
 }
 
+.site_nav .link{ display: block;}
 .contact_nav .link {
   padding-top: 32px;
   padding-bottom: 32px;
