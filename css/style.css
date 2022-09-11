@@ -64,6 +64,9 @@ body {
 
 /* logo footer WebStudio */
 .logo_footer {
+  display: block;
+  padding-top: 60px;
+  padding-bottom: 20px;
   text-decoration: none;
   font-family: "Raleway";
   font-style: normal;
@@ -263,6 +266,7 @@ justify-content: center;
 margin-left: 215px;}
 .ouer_team {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .ouer_team .item + .item{margin-left: 30px;}
@@ -309,10 +313,14 @@ margin-left: 215px;}
 }
 
 /* футер */
+
+
 footer {
+ 
   background: #2f303a;
 }
 .footer_part {
+  padding-left: 215px;
   width: 1600px;
 }
 .footer_link {
@@ -329,7 +337,10 @@ footer {
 
 address {
   font-style: normal;
+  padding-bottom: 60px;
 }
+
+
 .footer_link_mail,
 .footer_link_tel {
   line-height: 1.7;
