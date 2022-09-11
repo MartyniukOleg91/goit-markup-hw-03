@@ -38,7 +38,6 @@ body {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0;
 }
 
 /* logo header WebStudio*/
@@ -101,7 +100,6 @@ ul {
 .main_nav {
   display: flex;
   align-items: center;
-
 }
 
 .nav {
@@ -208,6 +206,16 @@ ul {
   line-height: 1.62;
   text-align: center;
   cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px 22px;
+  border-radius: 6px;
+  border-color: #ffffff;
+  background-color: #ffffff;
+}
+
+.buttons .item + .item {
+  margin-left: 8px;
 }
 .button_portfolio:hover {
   color: var(--color-light);
@@ -231,10 +239,13 @@ ul {
   inline-size: auto;
   margin: 94px 215px;
   width: 1200px;
-  }
-.container_benefits .general_item{display: flex;}
-.container_benefits .item + .item{margin-left: 30px;}
-
+}
+.container_benefits .general_item {
+  display: flex;
+}
+.container_benefits .item + .item {
+  margin-left: 30px;
+}
 
 .benefits_title {
   font-size: 14px;
@@ -252,24 +263,31 @@ ul {
 .container_works {
   margin-top: 0px;
   margin-bottom: 50px;
-  margin-left: 215px;}
-  
-.container_works .item + .item{margin-left: 30px;}
-.container_works .foto{display: flex;
-  justify-content: center; 
+  margin-left: 215px;
 }
 
+.container_works .item + .item {
+  margin-left: 30px;
+}
+.container_works .foto {
+  display: flex;
+  justify-content: center;
+}
 
 /* Імена учасників команди */
-.team{display: flex;
-justify-content: center;
-margin-left: 215px;}
+.team {
+  display: flex;
+  justify-content: center;
+  margin-left: 215px;
+}
 .ouer_team {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.ouer_team .item + .item{margin-left: 30px;}
+.ouer_team .item + .item {
+  margin-left: 30px;
+}
 
 .team_name {
   font-weight: 500;
@@ -314,9 +332,7 @@ margin-left: 215px;}
 
 /* футер */
 
-
 footer {
- 
   background: #2f303a;
 }
 .footer_part {
@@ -340,7 +356,6 @@ address {
   padding-bottom: 60px;
 }
 
-
 .footer_link_mail,
 .footer_link_tel {
   line-height: 1.7;
@@ -356,6 +371,14 @@ address {
 .footer_link_tel:focus {
   color: var(--accent-color);
 }
+
+/* ПОРТФОЛІО */
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
 /* скритий напис */
 .visually-hidden {
   position: absolute;
