@@ -43,6 +43,7 @@ body {
 
 /* logo header WebStudio*/
 .logo_header {
+  padding-left: 215px;
   text-decoration: none;
   font-family: "Raleway";
   font-style: normal;
@@ -97,6 +98,7 @@ ul {
 .main_nav {
   display: flex;
   align-items: center;
+
 }
 
 .nav {
@@ -216,15 +218,26 @@ ul {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin-left: 215px;
+  margin-bottom: 50px;
 }
+
 /* переваги */
-.benefits {
-  padding-top: 94px;
-}
+.container_benefits {
+  display: flex;
+  inline-size: auto;
+  margin: 94px 215px;
+  width: 1200px;
+  }
+.container_benefits .general_item{display: flex;}
+.container_benefits .item + .item{margin-left: 30px;}
+
+
 .benefits_title {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .benefits_detal {
@@ -234,14 +247,25 @@ ul {
 
 /* Чим займаємось */
 .container_works {
-  padding-top: 94px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  margin-left: 215px;}
+  
+.container_works .item + .item{margin-left: 30px;}
+.container_works .foto{display: flex;
+  justify-content: center; 
 }
 
-/* Імена учасників команди */
 
+/* Імена учасників команди */
+.team{display: flex;
+justify-content: center;
+margin-left: 215px;}
 .ouer_team {
   padding-top: 94px;
 }
+
+.ouer_team .item + .item{margin-left: 30px;}
 
 .team_name {
   font-weight: 500;
