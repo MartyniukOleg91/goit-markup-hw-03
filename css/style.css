@@ -8,14 +8,7 @@ html {
   --text-color: #757575;
 }
 /* скидання стилів */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
+h1,h2,h3,h4,h5,h6,p,ul {
   padding: 0;
   margin: 0;
 }
