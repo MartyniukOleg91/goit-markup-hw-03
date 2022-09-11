@@ -8,7 +8,14 @@ html {
   --text-color: #757575;
 }
 /* скидання стилів */
-h1,h2,h3,h4,h5,h6,p,ul {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
   padding: 0;
   margin: 0;
 }
@@ -26,7 +33,8 @@ body {
 
 /* контейнер */
 .container {
-  width: 2000px;
+  display: flex;
+  width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -71,32 +79,63 @@ ul {
   list-style-type: none;
 }
 
+.site_nav {
+  display: flex;
+}
+.site_nav .item + .item {
+  margin-left: 50px;
+}
+.site_nav .link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
+}
+
 /* формат шрифту навігаційних посилань */
-.nav_link {
+.main_nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
   text-decoration: none;
 }
-.nav_link:focus {
+.nav:focus {
   color: var(--accent-color);
 }
-.nav_link:hover {
+.nav:hover {
   color: var(--accent-color);
 }
 /* формат шрифту посилання телефон */
-.contact_link {
+
+.contact_nav {
+  display: flex;
+}
+.contact_nav .item + .item {
+  margin-left: 50px;
+}
+
+.contact_nav .link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
+}
+
+.contact {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
   text-decoration: none;
 }
-.contact_link:focus {
+.contact:focus {
   color: var(--accent-color);
 }
-.contact_link:hover {
+.contact:hover {
   color: var(--accent-color);
 }
 
@@ -106,6 +145,8 @@ ul {
 
 /* центральний напис */
 .hiro_titel {
+  width: 696px;
+  height: 120px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -120,7 +161,7 @@ ul {
   width: 1600px;
   height: 600px;
   background-color: #2f303a;
-    text-align: center;
+  text-align: center;
 }
 /* Центральна кнопка */
 .button {
@@ -171,7 +212,9 @@ ul {
   text-align: center;
 }
 /* переваги */
-.benefits{ padding-top: 94px;}
+.benefits {
+  padding-top: 94px;
+}
 .benefits_title {
   font-size: 14px;
   line-height: 1.14;
@@ -184,11 +227,15 @@ ul {
 }
 
 /* Чим займаємось */
-.container_works{padding-top: 94px; }
+.container_works {
+  padding-top: 94px;
+}
 
 /* Імена учасників команди */
 
-.ouer_team{padding-top: 94px;}
+.ouer_team {
+  padding-top: 94px;
+}
 
 .team_name {
   font-weight: 500;
