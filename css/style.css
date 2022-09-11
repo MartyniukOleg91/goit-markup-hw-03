@@ -8,6 +8,7 @@ html {
   --text-color: #757575;
 }
 /* скидання стилів */
+
 h1,
 h2,
 h3,
@@ -23,6 +24,7 @@ ul {
 a {
   text-decoration: none;
 }
+
 body {
   font-family: "Roboto";
   color: #212121;
@@ -36,8 +38,7 @@ body {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
-}
+  margin: 0}
 
 /* logo header WebStudio*/
 .logo_header {
