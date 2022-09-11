@@ -38,7 +38,8 @@ body {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0}
+  margin: 0;
+}
 
 /* logo header WebStudio*/
 .logo_header {
@@ -81,6 +82,7 @@ ul {
 
 .site_nav {
   display: flex;
+  margin-left: 93px;
 }
 .site_nav .item + .item {
   margin-left: 50px;
@@ -93,10 +95,8 @@ ul {
 
 /* формат шрифту навігаційних посилань */
 .main_nav {
-
   display: flex;
   align-items: center;
-
 }
 
 .nav {
@@ -116,12 +116,15 @@ ul {
 
 .contact_nav {
   display: flex;
+  margin-left: auto;
 }
 .contact_nav .item + .item {
   margin-left: 50px;
 }
 
-.site_nav .link{ display: block;}
+.site_nav .link {
+  display: block;
+}
 .contact_nav .link {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -284,6 +287,9 @@ ul {
 /* футер */
 footer {
   background: #2f303a;
+}
+.footer_part {
+  width: 1600px;
 }
 .footer_link {
   line-height: 24px;
