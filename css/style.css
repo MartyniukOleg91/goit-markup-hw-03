@@ -210,8 +210,8 @@ ul {
   display: inline-block;
   padding: 6px 22px;
   border-radius: 6px;
-  border-color: #ffffff;
-  background-color: #ffffff;
+  border-color: var(--color-light);
+  background-color: var(--color-light);
 }
 
 .buttons .item + .item {
