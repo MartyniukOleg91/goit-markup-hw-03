@@ -38,6 +38,7 @@ body {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
+
 }
 
 /* logo header WebStudio*/
@@ -375,9 +376,31 @@ address {
 /* ПОРТФОЛІО */
 
 .buttons {
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
+
+.container_price{
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto; margin-right: auto;
+
+margin-bottom: 94px;}
+
+.price{display: flex;
+flex-wrap: wrap;
+justify-content: center}
+
+.price .title{
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.price .title:nth-last-child(-n +3){margin-bottom: 0;}
+
+
 
 /* скритий напис */
 .visually-hidden {
