@@ -48,6 +48,7 @@ body {
 }
 section{padding-top: 94px;
 }
+
 /* logo header WebStudio*/
 .logo_header {
 
@@ -162,7 +163,6 @@ ul {
 
 /* центральний напис */
 .hiro_titel {
-  width: 696px;
   height: 120px;
   font-weight: 900;
   font-size: 44px;
@@ -175,7 +175,6 @@ ul {
 /* центральний текст */
 .center_text {
   padding: 200px 452px 280px 452px;
-  width: 1600px;
   height: 600px;
   background-color: #2f303a;
   text-align: center;
@@ -337,9 +336,7 @@ padding-top: 50px;
 footer {
   background: #2f303a;
 }
-.footer_part {
-  margin: 0 auto;
-}
+
 .footer_link {
   line-height: 24px;
   color: var(--color-light);
