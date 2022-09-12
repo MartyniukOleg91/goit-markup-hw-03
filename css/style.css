@@ -43,13 +43,14 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
+  margin: 0 auto
+  ;
 }
-.section{padding-top: 94px;
-padding-bottom: 94px;}
+section{padding-top: 94px;
+}
 /* logo header WebStudio*/
 .logo_header {
-  padding-left: 215px;
+
   text-decoration: none;
   font-family: "Raleway";
   font-style: normal;
@@ -194,7 +195,7 @@ ul {
   cursor: pointer;
   background-color: var(--accent-color);
   margin-top: 30px;
-  margin-bottom: 200px;
+  margin-bottom: 0px;
 }
 .button:hover,
 .button:focus {
@@ -236,7 +237,6 @@ ul {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  margin-left: 215px;
   margin-bottom: 50px;
 }
 
@@ -244,13 +244,10 @@ ul {
 .benefits{
   display: flex;
   inline-size: auto;
-  margin: 94px 215px;
-  width: 1200px;
+
 }
-.container_benefits .general_item {
-  display: flex;
-}
-.container_benefits .item + .item {
+
+.container .benefits .item + .item {
   margin-left: 30px;
 }
 
@@ -269,9 +266,7 @@ ul {
 /* Чим займаємось */
 .container_works {
   margin-top: 0px;
-  margin-bottom: 50px;
-  margin-left: 215px;
-}
+  margin-bottom: 50px;} 
 
 .container_works .item + .item {
   margin-left: 30px;
@@ -285,11 +280,11 @@ ul {
 .team {
   display: flex;
   justify-content: center;
-  margin-left: 215px;
+
 }
 .ouer_team {
-  padding-top: 94px;
-  padding-bottom: 94px;
+background-color: #F5F4FA;
+padding-top: 50px;
 }
 
 .ouer_team .item + .item {
@@ -343,7 +338,6 @@ footer {
   background: #2f303a;
 }
 .footer_part {
-  padding-left: 215px;
   margin: 0 auto;
 }
 .footer_link {
