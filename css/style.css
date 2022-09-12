@@ -45,7 +45,8 @@ body {
   padding-right: 15px;
   margin: 0 auto;
 }
-
+.section{padding-top: 94px;
+padding-bottom: 94px;}
 /* logo header WebStudio*/
 .logo_header {
   padding-left: 215px;
