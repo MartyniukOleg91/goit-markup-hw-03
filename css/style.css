@@ -9,6 +9,11 @@ html {
 }
 /* скидання стилів */
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -38,7 +43,7 @@ body {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-
+  margin: 0 auto;
 }
 
 /* logo header WebStudio*/
@@ -235,7 +240,7 @@ ul {
 }
 
 /* переваги */
-.container_benefits {
+.benefits{
   display: flex;
   inline-size: auto;
   margin: 94px 215px;
@@ -338,7 +343,6 @@ footer {
 }
 .footer_part {
   padding-left: 215px;
-  width: 1600px;
 }
 .footer_link {
   line-height: 24px;
@@ -381,26 +385,30 @@ address {
   justify-content: center;
 }
 
-.container_price{
+.container_price {
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto; margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 
-margin-bottom: 94px;}
+  margin-bottom: 94px;
+}
 
-.price{display: flex;
-flex-wrap: wrap;
-justify-content: center}
+.price {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-.price .title{
+.price .title {
   margin-left: 30px;
   margin-bottom: 30px;
 }
 
-.price .title:nth-last-child(-n +3){margin-bottom: 0;}
-
-
+.price .title:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
 
 /* скритий напис */
 .visually-hidden {
