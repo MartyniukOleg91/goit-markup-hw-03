@@ -51,6 +51,9 @@ section {
 }
 
 /* logo header WebStudio*/
+
+header{border-bottom:1px solid #ECECEC;}
+
 .logo_header {
   text-decoration: none;
   font-family: 'Raleway';
