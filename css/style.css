@@ -334,6 +334,8 @@ ul {
 }
 
 /* футер */
+footer li{margin-bottom: 10px;}
+.footer_item li:last-child{margin-bottom: 0;}
 
 footer {
   background: #2f303a;
