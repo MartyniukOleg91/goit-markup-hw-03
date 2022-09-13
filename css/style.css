@@ -265,9 +265,13 @@ ul {
 }
 
 /* Чим займаємось */
+
+.job{padding-top: 0;
+padding-bottom: 0;}
+
 .container_works {
   margin-top: 0px;
-  margin-bottom: 50px;
+  padding-bottom: 94px;
 }
 
 .container_works .item + .item {
@@ -279,16 +283,19 @@ ul {
 }
 
 /* Імена учасників команди */
+
+.teams{padding-top: 0;}
+
 .team {
   display: flex;
   justify-content: center;
 }
-.ouer_team {
+.our_team {
   background-color: #f5f4fa;
-  padding-top: 50px;
+  padding-top: 94px;
 }
 
-.ouer_team .item + .item {
+.our_team .item + .item {
   margin-left: 30px;
 }
 
