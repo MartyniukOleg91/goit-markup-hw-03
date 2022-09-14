@@ -411,7 +411,7 @@ address {
 }
 .price .title:nth-child(3n){margin-right: 0;}
 
-.prices{margin-bottom: 0px;}
+.prices{padding-top: 0;}
 
 /* скритий напис */
 .visually-hidden {
