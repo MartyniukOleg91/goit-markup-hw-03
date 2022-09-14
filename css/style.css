@@ -222,9 +222,9 @@ ul {
   text-decoration: none;
   display: inline-block;
   padding: 6px 22px;
-  border-radius: 6px;
   border-color: var(--color-light);
-  background-color: var(--color-light);
+  background: #F5F4FA;
+  border-radius: 4px;
 }
 
 .buttons .item + .item {
@@ -406,11 +406,13 @@ address {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  
 }
 
 .price .title {
   margin-left: 30px;
   margin-bottom: 30px;
+  border: 1px solid #EEEEEE;
 }
 
 .price .title:nth-last-child(-n + 3) {
