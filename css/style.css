@@ -74,10 +74,12 @@ header{border-bottom:1px solid #ECECEC;}
   line-height: 1.2;
 }
 
+.lover{padding-top: 60px;
+padding-bottom: 60px;}
+
 /* logo footer WebStudio */
 .logo_footer {
   display: block;
-  padding-top: 60px;
   padding-bottom: 20px;
   text-decoration: none;
   font-family: 'Raleway';
@@ -215,6 +217,7 @@ ul {
 }
 /* Кнопки портфоліо */
 .button_portfolio {
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -223,9 +226,9 @@ ul {
   text-decoration: none;
   display: inline-block;
   padding: 6px 22px;
-  border-color: var(--color-light);
+  border-color: rgba(255, 255, 255, 0);
   background: #F5F4FA;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 .buttons .item + .item {
@@ -315,6 +318,7 @@ padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 /* посади учасникв */
@@ -373,7 +377,6 @@ footer {
 
 address {
   font-style: normal;
-  padding-bottom: 60px;
 }
 
 .footer_link_mail,
