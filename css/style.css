@@ -1,4 +1,5 @@
-html {
+html{
+
   box-sizing: border-box;
 }
 
@@ -53,7 +54,9 @@ section {
 
 /* logo header WebStudio*/
 
-header{border-bottom:1px solid #ECECEC;}
+header {
+  border-bottom: 1px solid #ececec;
+}
 
 .logo_header {
   text-decoration: none;
@@ -74,8 +77,10 @@ header{border-bottom:1px solid #ECECEC;}
   line-height: 1.2;
 }
 
-.lover{padding-top: 60px;
-padding-bottom: 60px;}
+.lover {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 /* logo footer WebStudio */
 .logo_footer {
@@ -227,7 +232,7 @@ ul {
   display: inline-block;
   padding: 6px 22px;
   border-color: rgba(255, 255, 255, 0);
-  background: #F5F4FA;
+  background: #f5f4fa;
   border-radius: 8px;
 }
 
@@ -273,8 +278,10 @@ ul {
 
 /* Чим займаємось */
 
-.job{padding-top: 0;
-padding-bottom: 0;}
+.job {
+  padding-top: 0;
+  padding-bottom: 0;
+}
 
 .container_works {
   margin-top: 0px;
@@ -291,14 +298,18 @@ padding-bottom: 0;}
 
 /* Імена учасників команди */
 
-.name_position{background: #FFFFFF;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+.name_position {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-padding-top: 30px;
-padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
- 
-.teams{padding-top: 0;}
+
+.teams {
+  padding-top: 0;
+}
 
 .team {
   display: flex;
@@ -361,8 +372,12 @@ padding-bottom: 30px;
 }
 
 /* футер */
-footer li{margin-bottom: 10px;}
-.footer_item li:last-child{margin-bottom: 0;}
+footer li {
+  margin-bottom: 10px;
+}
+.footer_item li:last-child {
+  margin-bottom: 0;
+}
 
 footer {
   background: #2f303a;
@@ -403,11 +418,9 @@ address {
 /* ПОРТФОЛІО */
 
 .buttons {
-
   display: flex;
   justify-content: center;
 }
-
 
 .price {
   display: flex;
@@ -418,16 +431,20 @@ address {
 .price .title {
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
 }
 
 .price .title:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
-.price .title:nth-child(3n){margin-right: 0;}
+.price .title:nth-child(3n) {
+  margin-right: 0;
+}
 
-.prices{padding-top: 0;
-margin-top: 50px;}
+.prices {
+  padding-top: 0;
+  margin-top: 50px;
+}
 
 /* скритий напис */
 .visually-hidden {
