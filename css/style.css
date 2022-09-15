@@ -315,12 +315,12 @@ ul {
   display: flex;
   justify-content: center;
 }
-.our_team {
+.teams .container {
   background-color: #f5f4fa;
   padding-top: 94px;
 }
 
-.our_team .item + .item {
+.teams .container .item + .item {
   margin-left: 30px;
 }
 
