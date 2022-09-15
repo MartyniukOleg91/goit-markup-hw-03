@@ -335,6 +335,9 @@ padding-bottom: 30px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+  padding-left: 24px;
+  padding-bottom: 4px;
+  padding-top: 20px;
 }
 
 /* стилізація категорій  */
@@ -342,6 +345,8 @@ padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.88;
   color: var(--text-color);
+  padding-left: 24px;
+  padding-bottom: 20px;
 }
 /* активна поточна сторінка */
 .current {
