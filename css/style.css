@@ -1,5 +1,4 @@
-html{
-
+html {
   box-sizing: border-box;
 }
 
@@ -309,6 +308,7 @@ ul {
 
 .teams {
   padding-top: 0;
+  background-color: #f5f4fa;
 }
 
 .team {
@@ -316,7 +316,6 @@ ul {
   justify-content: center;
 }
 .teams .container {
-  background-color: #f5f4fa;
   padding-top: 94px;
 }
 
